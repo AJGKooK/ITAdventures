@@ -1,4 +1,5 @@
 # Created by Aaron Goff
+#YouTube Walk-through: https://www.youtube.com/watch?v=9w_Q3s49oyU&list=PLBawh3P7dWoURbtf93DZwxW70LuZEBoGz&index=9
 
 # Allow user to nput two numbers & operator
 number1 = int(input("The first number, please: "))
