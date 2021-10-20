@@ -1,4 +1,5 @@
 # Created by Aaron Goff
+# YouTube Walk-Through: https://www.youtube.com/watch?v=JS9YoIOZTWE&list=PLBawh3P7dWoURbtf93DZwxW70LuZEBoGz&index=10
 
 # Create a while True loop (infinite loop)
 while True:
