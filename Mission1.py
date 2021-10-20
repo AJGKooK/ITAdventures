@@ -1,5 +1,6 @@
 # Here we will fix a section of code that is highlighted between lines 23 and 27
 # Additionally we will create a loop that will change the colors between lines 43 and 49 - Change the colors in incriments of 50 or more
+# YouTube Walk-through: https://www.youtube.com/watch?v=O_B6LGE8Pe8&list=PLBawh3P7dWoURbtf93DZwxW70LuZEBoGz&index=11
 
 import os
 import sys
