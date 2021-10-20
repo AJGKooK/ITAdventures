@@ -1,5 +1,7 @@
 # Created by Aaron Goff
 
+#YouTube Walk-through https://www.youtube.com/watch?v=qNZEwJU5YSI&list=PLBawh3P7dWoURbtf93DZwxW70LuZEBoGz&index=8
+
 # Allow user to nput two numbers
 number1 = int(input("First number: "))
 number2 = int(input("Second number: "))
