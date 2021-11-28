@@ -94,7 +94,6 @@ def main():
                         led_group=RvrLedGroups.headlight_left.value, # Set left headlight, flag 0 
                         led_brightness_values=[255, 255, 0]
                     )
-                    print("flag: " + str(flag))
                     flag = 1
                 counter += 1
 
