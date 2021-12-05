@@ -16,7 +16,14 @@ rvr = SpheroRvrObserver()
 
 # Printing color values from JSON
 def color_detected_handlers(color_detected_data):
-
+    global red
+    global green
+    global blue
+    
+    red = color_detected_data['ColorDetection']['R']
+    green = color_detected_data['ColorDetection']['G']
+    blue = color_detected_data['ColorDetection']['B']    
+    
     # Print out colors of Red, Green, and Blue on the terminal
     print("Red: " + str(color_detected_data['ColorDetection']['R']))
     print("Green: " + str(color_detected_data['ColorDetection']['G']))
