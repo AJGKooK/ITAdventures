@@ -25,9 +25,9 @@ def color_detected_handlers(color_detected_data):
     blue = color_detected_data['ColorDetection']['B']    
     
     # Print out colors of Red, Green, and Blue on the terminal
-    print("Red: " + str(color_detected_data['ColorDetection']['R']))
-    print("Green: " + str(color_detected_data['ColorDetection']['G']))
-    print("Blue: " + str(color_detected_data['ColorDetection']['B']))
+    print("Red: " + str(red))
+    print("Green: " + str(green))
+    print("Blue: " + str(blue))
 
 # Start main
 def main():
