@@ -18,10 +18,6 @@ from sphero_sdk import RvrLedGroups
 # Initialize values
 key_helper = KeyboardHelper()
 current_key_code = -1
-red = 0
-green = 0
-blue = 0
-breakFlag = 0
 
 # Reference asyncio loop & SpheroRvrAsync
 loop = asyncio.get_event_loop()
@@ -47,7 +43,6 @@ def color_detected_handlers(color_detected_data):
 
 # Activate color sensor on RVR
 async def colorSensor():
-    global breakFlag
     try:      
         await rvr.enable_color_detection(is_enabled=True)
         await rvr.sensor_control.add_sensor_data_handler(
@@ -61,7 +56,6 @@ async def colorSensor():
        
     except KeyboardInterrupt:
         print('\nProgram terminated with keyboard interrupt.')
-        breakFlag = 1
 
     finally:
         await rvr.sensor_control.clear()
