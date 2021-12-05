@@ -13,9 +13,6 @@ from sphero_sdk import RvrLedGroups
 
 
 rvr = SpheroRvrObserver()
-red = 0
-green = 0
-blue = 0
 
 def color_detected_handlers(color_detected_data):
     # Set red, green, and blue as global to be used outside of function
