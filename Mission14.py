@@ -24,9 +24,6 @@ speedSet = 0
 heading = 0
 headingAngle = 0
 flags = 0
-red = 0
-green = 0
-blue = 0
 
 # Reference asyncio loop & SpheroRvrAsync
 loop = asyncio.get_event_loop()
